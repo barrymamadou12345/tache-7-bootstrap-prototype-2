@@ -1,0 +1,134 @@
+/*======== Première section DEBUT=========== */
+
+@media screen and (max-width:1201px) {
+    .imo{
+        width: 55%;
+        margin: 150px auto;
+    }
+    .bind1{
+        position: absolute;
+        width: 35%;
+        z-index: 500;
+        left: 60px;
+        top: 380px;
+    }
+    .bind{
+        position: absolute;
+        width: 31%;
+        z-index: 500;
+        left: 680px;
+        top: -55px;
+    }
+}
+@media screen and (max-width:1198px) {
+    .bind1{
+        left: 30px;
+        top: 300px;
+    }
+    .bind{
+        left: 600px;
+        top: -80px;
+    }
+}
+@media screen and (max-width:992px) {
+    .bind1{
+        position: inherit;
+        width: 85%;
+        margin: auto;
+    }
+    .bind{
+        position: inherit;
+        width: 85%;
+        margin: auto;
+    }
+    .mik{
+        position: inherit;   
+        flex-wrap: wrap;
+    }
+    .imo{
+        width: 85%;
+        margin: 30px auto;
+    }
+}
+
+@media screen and (max-width:733px) {
+    .com ul{
+        gap: 30px;
+    }
+    .debut h1{ 
+        background-color: rgba(0, 0, 0, 0.665);
+    }
+}
+
+/*======== Première section FIN=========== */
+
+
+/*======== deuxième section DEBUT=========== */
+@media screen and (max-width:1201px) {
+    .imoro{
+        width: 55%;
+        margin-bottom: 250px;
+        margin-top: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bindro{
+        left: 700px;
+        top: 350px;
+    }
+    .bindroo{
+        left: 70px;
+        top: -60px;
+    }
+}
+@media screen and (max-width:1198px) {
+    .bindro{
+        left: 550px;
+        top: 280px;
+    }
+    .bindroo{
+        left: 30px;
+        top: -60px;
+    }
+}
+@media screen and (max-width:992px) {
+    .bindro{
+        position: inherit;
+        width: 85%;
+        margin-bottom: 80px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bindroo{
+        position: inherit;
+        width: 85%;
+        margin-top: 80px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mikro{
+        position: inherit;   
+        flex-wrap: wrap;
+    }
+    .imoro{
+        width: 85%;
+        margin: 30px auto;
+    }
+    .soft{
+        height: 115px;
+    }
+}
+@media screen and (max-width:767px){
+    .soft{
+        height: auto;
+    }
+    .bindro, .bind1{
+        width: 100%;
+    }
+    .bindroo, .bind{
+        width: 100%;
+    }
+    .imoro, .imo{
+        width: 100%;
+    }
+}

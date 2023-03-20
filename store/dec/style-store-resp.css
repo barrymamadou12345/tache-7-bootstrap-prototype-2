@@ -1,0 +1,82 @@
+@media screen and (max-width:733px) {
+    .com ul{
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width:850px){
+    .cross{
+        width: 80%;
+    }
+}
+@media screen and (max-width:500px){
+    .cross{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .bind{
+        position: absolute;
+        width: 58%;
+        z-index: 500;
+        left: 180px;
+        top: 205px;
+    }
+    .sect1{
+        margin-bottom: 280px;
+    }
+}
+@media screen and (max-width:992px) {
+    .bind{
+        position: absolute;
+        width: 65%;
+        z-index: 500;
+        left: 105px;
+        top: 150px;
+    }
+    .sect1{
+        margin-bottom: 320px;
+    }
+}
+@media screen and (max-width:768px) {
+    .bind{
+        position: initial;
+        width: 95%;
+        margin: auto;
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    .imo{
+        height: 250px;
+        width: 95%;
+        margin: auto;
+    }
+    .imo img{
+        width: 100%;
+        height: 100%;
+    }
+    .sect1{
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width:767px) {
+    .bind{
+        width: 90%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .imo{
+        height: 250px;
+        width: 90%;
+        margin: auto;
+    }
+}
+@media screen and (max-width:733px) {
+    .com ul{
+        gap: 30px;
+    }
+    .debut h1{ 
+        background-color: rgba(0, 0, 0, 0.665);
+    }
+}

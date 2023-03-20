@@ -1,0 +1,41 @@
+@media screen and (max-width:993px) {
+    .agent{
+        position: relative;
+        margin-bottom: 50px;
+        flex-direction: column-reverse;
+    }
+    .texto{
+        position: initial;
+        width: 100%;
+        background-color: #F6E1C5;
+        border-radius: 5px;
+    }
+    .viro{
+        width: 100%;
+        position: initial;
+        margin-bottom: 50px;
+    }
+    .cro{
+        position: initial;
+        margin-bottom: 50px;
+    } 
+    .poid{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:733px) {
+    .poid{
+        width: 85%;
+    }
+    .volt{
+        width: 93%;
+        margin: auto;
+    }
+    .com ul{
+        gap: 30px;
+    }
+    .debut h1{ 
+        background-color: rgba(0, 0, 0, 0.665);
+    }
+}

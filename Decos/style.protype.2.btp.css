@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/image4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.debut h1{
+    font-size: 30px;
+    color: #eb0707;
+    font-weight: 700;
+}
+.debut p{
+    font-size: 75px;
+}
+.com ul{
+    gap: 50px;
+}
+.com{
+    width: 100%;
+    background-color: #490909;
+}
+.agent{
+    position: relative;
+    margin-bottom: 650px;
+}
+.texto{
+    position: absolute;
+    width: 43%;
+    background-color: #F6E1C5;
+    z-index: 500;
+    left: 10px;
+    top: 100px;
+    border-radius: 5px;
+}
+.viro{
+    position: absolute;
+    right: -5px;
+    z-index: 1;
+}
+.cro{
+    position: absolute;
+    bottom: -30px;
+    left: 180px;
+}
+.plo{
+    font-size: 35px;
+}
+.milo{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #7B261A;
+}
+.prise{
+    width: 50%;
+    height: 400px ;
+    background-color: red;
+}
+.villa{
+    width: 100%;
+    height: auto;
+    background-color: #a5332bde;
+}
+.volty{
+    width: 100%;
+    background-color: #F6E1C5;
+    border-radius: 5px;
+}
+.volt{
+    width: 63%;
+    margin: auto;
+    border: 1px solid #F6E1C5;
+    padding: 10px;
+    border-radius: 5px;
+}
+.poid{
+    width: 50%;
+}
+.fter{
+    width: 100%;
+    background-color: #311919;
+}

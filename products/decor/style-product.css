@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/image4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.debut h1{
+    font-size: 30px;
+    color: #eb0707;
+    font-weight: 700;
+}
+.debut p{
+    font-size: 75px;
+}
+.com ul{
+    gap: 50px;
+}
+.com{
+    width: 100%;
+    background-color: #490909;
+}
+
+/*======== premiere section debut=========== */
+
+.mik{
+    position: relative;
+}
+.bind1{
+    position: absolute;
+    width: 380px;
+    background-color: #F6E1C5;
+    z-index: 500;
+    left: -10px;
+    top: 440px;
+    border-radius: 5px;
+}
+.bind{
+    position: absolute;
+    width: 360px;
+    background-color: #F6E1C5;
+    z-index: 500;
+    left: 750px;
+    top: -60px;
+    border-radius: 5px;
+}
+.imo{
+    width: 67%;
+    margin: 130px auto;
+}
+
+/*======== premiere section fin=========== */
+
+
+/*======== deuxième section DEBUT=========== */
+
+.mikro{
+    position: relative;
+}
+.bindro{
+    position: absolute;
+    width: 380px;
+    background-color: #F6E1C5;
+    z-index: 500;
+    left: 750px;
+    top: 440px;
+    border-radius: 5px;
+}
+.bindroo{
+    position: absolute;
+    width: 360px;
+    background-color: #F6E1C5;
+    z-index: 500;
+    left: -10px;
+    top: -60px;
+    border-radius: 5px;
+}
+.imoro{
+    width: 67%;
+    margin-bottom: 250px;
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*====== footer section====== */
+.fter{
+    width: 100%;
+    background-color: #311919;
+}

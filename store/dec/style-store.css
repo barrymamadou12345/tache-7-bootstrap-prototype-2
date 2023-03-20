@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/image4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.debut h1{
+    font-size: 30px;
+    color: #eb0707;
+    font-weight: 700;
+}
+.debut p{
+    font-size: 75px;
+}
+.com ul{
+    gap: 50px;
+}
+.com{
+    width: 100%;
+    background-color: #490909;
+}
+.carre{
+    width: 100%;
+    background-color: #a5332bde;
+}
+.cross{
+    margin: 50px 0px;
+    width: 50%;
+    padding: 10px;
+    border: 3px solid #CD5449;
+    border-radius: 5px;
+}
+.listo{
+    width: 80%;
+    margin: auto;
+    font-family: Montserrat ;
+}
+.robin{
+    border-bottom: 5px solid rgb(187, 114, 114);
+}
+.jour {
+    margin-bottom: -15px;
+}
+
+.jour p{
+    font-size: 20px;
+}
+.fond{
+    width: 100%;
+    height: 100%;
+    background-color: #F6E1C5;
+    border-radius: 5px;
+}
+
+.sect1{
+    position: relative;
+    margin-bottom: 230px;
+}
+.bind{
+    position: absolute;
+    width: 58%;
+    background-color: #F6E1C5;
+    z-index: 500;
+    left: 220px;
+    top: 245px;
+    border-radius: 5px;
+}
+.jour .pirwi{
+    color: #eb0707;
+}
+.fter{
+    width: 100%;
+    background-color: #311919;
+}

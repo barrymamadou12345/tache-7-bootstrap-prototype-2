@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/image4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.debut h1{
+    font-size: 30px;
+    color: #eb0707;
+    font-weight: 700;
+}
+.debut p{
+    font-size: 75px;
+}
+.com ul{
+    gap: 50px;
+}
+.com{
+    width: 100%;
+    background-color: #490909;
+}
+
+.sect1{
+    position: relative;
+    margin-bottom: 230px;
+}
+.bind{
+    position: absolute;
+    width: 58%;
+    background-color: #F6E1C5;
+    z-index: 500;
+    left: 220px;
+    top: 245px;
+    border-radius: 5px;
+}
+.fter{
+    width: 100%;
+    background-color: #311919;
+}
